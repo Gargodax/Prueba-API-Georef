@@ -3,7 +3,7 @@
   justify-content: center;
   background-image: linear-gradient(to left, lightblue 10%, white);
   margin: 10px;
-  width: 40%;
+  width: auto;
   border: black solid 2px;
   border-radius: 20px;
   
