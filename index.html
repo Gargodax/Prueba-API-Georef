@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Georef</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="api">
+        <!--Imagen de bandera (opcional)-->
+        <span>
+            <img src="https://flagcdn.com/160x120/ar.png" alt="Argentina">
+            <h2>¿Sos de Argentina?</h2>
+        </span>
+
+        <span>
+            <!--Elección de Provincia-->
+            <label><b>Provincia:</b></label>
+            <select id="selectProvincias">
+                <option value="Elige una provincia">Elige una provincia</option>
+            </select>
+            <span></span>
+
+            <!--Elección de Municipio-->
+            <label><b>Municipio:</b></label>
+            <select id="selectMunicipio">
+                <option value="Elige un Municipio">Elige un municipio</option>
+            </select>
+            <span></span>
+
+            <!--Elección de Localidad-->
+            <label><b>Localidad:</b></label>
+            <select id="selectLocalidad">
+                <option value="Elige una localidad">Elige una localidad</option>
+            </select>
+        </span>
+        <span></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

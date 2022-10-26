@@ -1,0 +1,29 @@
+.api{
+    background: transparent;
+    display: flex;
+    width: auto;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #919191;
+    border-radius: 20px;
+    padding: 10px 0;
+    gap: 10%;
+    
+}
+.api span{
+    display: flex;
+    flex-flow: column;    
+}
+.api img{
+    max-width: 100%;
+    align-self: center;
+}
+
+.api select{
+    background: rgba(173, 216, 230, 0.5);
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    cursor: pointer;
+}
