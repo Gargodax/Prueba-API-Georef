@@ -13,4 +13,5 @@
   flex-direction: column;
   margin: 10px;
   width: auto;
+  max-width: 100%;
 }
