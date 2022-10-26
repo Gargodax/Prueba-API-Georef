@@ -15,3 +15,8 @@
   width: auto;
   max-width: 100%;
 }
+
+.api img, select{
+  width: auto;
+  max-width: 100%;
+}
